@@ -1,0 +1,160 @@
+/* Apply basic settings to all elements */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the complete webpage */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f4f7fb;
+}
+
+/* Style the main heading */
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/* star heading*/
+
+h2 {
+    color: #234e70;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #356b8c;
+    margin-bottom: 10px;
+}
+
+/* Style paragraphs */
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Style the header */
+
+header {
+    background-color: #234e70;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Style the navigation */
+
+nav {
+    background-color: #16324f;
+    padding: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+}
+
+/* Change link appearance on hover */
+
+nav a:hover {
+    color: #ffd166;
+}
+
+/* Style the main content */
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Style the footer */
+
+footer {
+    background-color: #16324f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Style buttons */
+
+button {
+    background-color: #234e70;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Change button appearance on hover */
+
+button:hover {
+    background-color: #356b8c;
+}/* Profile card */
+
+.profile-card {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #d5dce5;
+}
+
+/* Profile image */
+
+.profile-image {
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #234e70;
+}
+
+/* Profile headings */
+
+.profile-card h2,
+.profile-card h3 {
+    text-align: center;
+}
+
+/* Profile paragraph */
+
+.profile-card p {
+    text-align: center;
+}
+
+/* Profile list */
+
+.profile-card ul {
+    padding-left: 25px;
+}
+
+.profile-card li {
+    margin-bottom: 8px;
+}
